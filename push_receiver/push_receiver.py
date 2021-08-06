@@ -17,6 +17,7 @@ from oscrypto.asymmetric import generate_pair
 from base64 import urlsafe_b64encode, urlsafe_b64decode
 import os
 import json
+import ssl
 import time
 from google.protobuf.json_format import MessageToDict
 from binascii import hexlify
